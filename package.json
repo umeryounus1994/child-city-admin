@@ -9,9 +9,8 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "engines" : { 
-    "npm" : ">=8.0.0 <9.0.0",
-    "node" : ">=16.0.0 <20.0.0"
+  "engines": {
+    "node": "14.17.5"
   },
   "dependencies": {
     "@emotion/react": "^11.11.0",
