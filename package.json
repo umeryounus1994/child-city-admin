@@ -15,7 +15,7 @@
     "node": "14.17.5"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.0",
+    "@emotion/react": "^11.13.3",
     "@mantine/carousel": "^6.0.20",
     "@mantine/core": "^6.0.21",
     "@mantine/dates": "^6.0.13",
