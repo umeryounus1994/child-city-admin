@@ -4,5 +4,8 @@ import reactRefresh from "@vitejs/plugin-react-refresh";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), reactRefresh()]
+  plugins: [react(), reactRefresh()],
+  build: {
+    outDir: 'dist'
+  }
 });
