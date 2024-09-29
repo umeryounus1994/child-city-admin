@@ -59,7 +59,7 @@
     "tabler-icons-react": "^1.56.0",
     "uuid": "^9.0.1",
     "vite": "^4.4.5",
-    "@vitejs/plugin-react": "^4.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
   },
   "devDependencies": {
     "@babel/types": "^7.25.6",
