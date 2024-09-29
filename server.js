@@ -1,12 +1,12 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-
-app.use(express.static(path.join(__dirname, '../build')));
+console.log(__dirname)
+app.use(express.static(path.join(__dirname, 'dist')));
 
 // For all other routes, serve the index.html file from the React build folder
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../build', 'index.html'));
+    res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
 // Start the server

@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "commonjs",
-  "main": "server.js",
+  "main": "src/main.jsx",
   "scripts": {
     "heroku-postbuild": "npm install",
     "dev": "vite --host",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "start": "node server.js",
-    "build": "react-scripts build"
+  "build": "vite build"
   },
   "engines": {
     "node": "14.17.5"
