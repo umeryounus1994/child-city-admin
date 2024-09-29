@@ -12,7 +12,7 @@
   "build": "vite build"
   },
   "engines": {
-    "node": "14.17.5"
+    "node": ">=16"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
