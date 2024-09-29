@@ -1,4 +1,4 @@
-import ReactHtmlParser from "react-html-parser";
+import parse from 'html-react-parser';
 import { Flex, Image, Text, Title, useMantineTheme } from "@mantine/core";
 
 const ViewProduct = ({ rowData }) => {
@@ -26,7 +26,7 @@ const ViewProduct = ({ rowData }) => {
         {rowData?.title}
       </Text>
       <Title order={3}>Description</Title>
-      <Text>{ReactHtmlParser(rowData?.details)}</Text>
+      <Text>{parse(rowData?.details)}</Text>
     </Flex>
   );
 };

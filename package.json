@@ -6,11 +6,11 @@
   "main": "src/main.jsx",
   "scripts": {
     "postinstall": "npm install --force",
-  "heroku-postbuild": "npm run build",
+    "heroku-postbuild": "npm run build",
     "dev": "vite --host",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "start": "node server.js",
-  "build": "vite build"
+    "build": "vite build"
   },
   "engines": {
     "node": "18.x"
@@ -43,6 +43,7 @@
     "embla-carousel-react": "^7.0.0",
     "express": "^4.21.0",
     "firebase": "^9.22.1",
+    "html-react-parser": "^5.1.16",
     "jwt-decode": "^3.1.2",
     "moment": "^2.29.4",
     "papaparse": "^5.4.1",
@@ -51,7 +52,6 @@
     "react-data-table-component": "^7.5.3",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
-    "react-html-parser": "^2.0.2",
     "react-input-mask": "^2.0.4",
     "react-query": "^3.39.3",
     "react-router-dom": "^6.11.2",
