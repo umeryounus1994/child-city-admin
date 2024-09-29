@@ -5,7 +5,7 @@
   "type": "commonjs",
   "main": "src/main.jsx",
   "scripts": {
-    "postinstall": "npm install --force",
+    "postinstall": "npm install",
     "heroku-postbuild": "npm run build",
     "dev": "vite --host",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
